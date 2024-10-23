@@ -1,0 +1,29 @@
+1 VERSIONINFO
+FILEVERSION 1,2,17,1
+PRODUCTVERSION 1,0,1,0
+FILEFLAGSMASK 0x3fL
+FILEFLAGS 0x0L
+FILEOS 0x4L
+FILETYPE 0x1L
+FILESUBTYPE 0x0L
+{
+    BLOCK "StringFileInfo"
+    {
+        BLOCK "040904b0" // Language and codepage
+        {
+            VALUE "CompanyName", "Abolfazl Najafi"
+            VALUE "FileDescription", "Encryar - XOR Encrypt/Decrypt Program"
+            VALUE "FileVersion", "1.2.17.1"
+            VALUE "InternalName", "Encryar"
+            VALUE "LegalCopyright", "Copyright (C) 2024 Abolfazl Najafi"
+            VALUE "OriginalFilename", "Encryar.exe"
+            VALUE "ProductName", "Encryar"
+            VALUE "ProductVersion", "1.0.1.0"
+        }
+    }
+
+    BLOCK "VarFileInfo"
+    {
+        VALUE "Translation", 0x0409, 1200
+    }
+}
