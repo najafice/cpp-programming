@@ -21,20 +21,14 @@ This repository contains a C++ program that lists the contents of a specified di
 
 To compile and run the program:
 
-1. **Clone the repository**:
+1. **Compile the program**:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    g++ main.cpp -o DirList versioninfo.o -std=c++17 -static-libgcc -static-libstdc++
     ```
 
-2. **Compile the program**:
+2. **Run the program**:
     ```bash
-    g++ -std=c++17 -o dirlist main.cpp
-    ```
-
-3. **Run the program**:
-    ```bash
-    ./dirlist
+    ./DirList
     ```
 
 After running the program, it will generate a `file_list.csv` file containing the details of the files in the directory.
@@ -42,7 +36,7 @@ After running the program, it will generate a `file_list.csv` file containing th
 ## Requirements
 
 - C++17 or later
-- A C++ compiler such as GCC
+- A C++ compiler such as MingW
 - Filesystem support for handling directory and file operations.
 
 ## License
